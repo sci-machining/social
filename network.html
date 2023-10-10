@@ -68,10 +68,6 @@
     }
 
 
-    .youtube:hover {
-      background-color: #FF0000;
-    }
-
     .pinterest:hover {
       background-color: #c8232c;
     }
@@ -125,13 +121,7 @@
       </div>
       <!-- End linkedin Icon -->
 
-      <!-- Start youtube Icon -->
-      <div id="youtube" onclick="navigate(this.id)" class="social youtube">
-        <span class="icon"><i class="fab fa-youtube"></i></span>
-      </div>
-      <!-- End youtube Icon -->
-
-      <!-- Start telegram Icon -->
+        <!-- Start telegram Icon -->
       <div id="telegram" onclick="navigate(this.id)" class="social telegram">
         <span class="icon telegram"><i class="fab fa-telegram"></i></span>
       </div>
@@ -159,10 +149,6 @@
         }
         else if (id === "linkedin") {
           window.open("https://www.linkedin.com/company/scientific-machining-%D9%85%D8%A7%D8%B4%DB%8C%D9%86%DA%A9%D8%A7%D8%B1%DB%8C-%D8%B9%D9%84%D9%85%DB%8C/?viewAsMember=true", '_blank').focus(); //Add the url to your pinterest account
-        }
-
-        else if (id === "youtube") {
-          window.open("https://www.youtube.com/channel/UCGGAwj-uds8wRvoCaTQvaXQ", '_blank').focus(); //Add the url to your youtube account
         }
 
         else if (id === "telegram") {
